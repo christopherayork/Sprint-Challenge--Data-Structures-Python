@@ -51,7 +51,6 @@ class LinkedList:
         n = node.next_node
         reverse(n)
         n.next_node = node
-        n.next_node = node
       else:
         self.head = node
 
