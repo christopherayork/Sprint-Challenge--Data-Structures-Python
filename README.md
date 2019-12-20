@@ -65,9 +65,10 @@ buffer.get()   # should return ['d', 'e', 'f']
 ***!Important!*** If you are running this using PowerShell by clicking on the green play button, you will get an error that `names1.txt` is not found.  To resolve this, run it, get the error, then `cd` into the `names` directory in the `python` terminal that opens in VSCode.
 
 Navigate into the `names` directory. Here you will find two text files containing 10,000 names each, along with a program `names.py` that compares the two files and prints out duplicate name entries. Try running the code with `python3 names.py`. Be patient because it might take a while: approximately six seconds on my laptop. What is the runtime complexity of this code?
-
+### Answer: It could be said to be O(n^2)
 Six seconds is an eternity so you've been tasked with speeding up the code. Can you get the runtime to under a second? Under one hundredth of a second?
-
+### Result: Time registered at 0.22 seconds
+### Runtime: O(n)
 *You may not use the built in Python list, set, or dictionary for this problem*
 
 (Hint: You might try importing a data structure you built during the week)
